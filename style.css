@@ -1,0 +1,170 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans Regular', sans-serif;
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(Roboto-Medium.ttf);
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo, a {
+    font-size: 50px;
+    font-family: 'Underrated';
+    float: left;
+    color: #fdfdfd;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky; 
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 2px solid #525252;
+    background: rgb(35, 39, 34);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: rgb(167, 255, 174);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nexa Regular';
+    src: url(nexa_regular.otf);
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.prolog {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.prolog .desc {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nexa Regular';
+    color: #0F3D3E;
+}
+
+h2 {
+    font-family: 'Nexa Regular';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #100720;
+    width: 100%;
+    line-height: 50px;
+}
+    
+.gal {
+    text-align: center; 
+    width: 100%;
+}
+
+.galmem, img {
+    border-radius: 0%;
+}
+
+.prof {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.file {
+    width: 20%;
+    margin: 35px 50px 35px 50px;
+}
+
+.file img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #dedede;
+    padding: 50px 0px 50px 0px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'Open Sans Regular';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #100720;
+    width: 100%;
+    line-height: 50px;
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #100720;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: 'Underrated';
+    src: url(UNDERRATED-UltraBold\ Personal\ Use.otf);
+}
